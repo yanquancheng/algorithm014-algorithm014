@@ -54,7 +54,7 @@ public class HomeWorkCyq {
                 // res[0]=i;
                 // res[1]=mp.get(target-nums[i]);
                 //return res;
-                return new int[]{mp.get(target-numsp[i]),i};
+                return new int[]{mp.get(target-nums[i]),i};
             }else{
                 mp.put(nums[i],i);
             }
